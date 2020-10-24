@@ -28,5 +28,9 @@ public class Tester {
     int[][] test5 = { {  2,  2, 2 },{  2, 2, 2 } };
     System.out.println(ArrayOps.isRowMagic(test5));
     System.out.println(ArrayOps.isColMagic(test5));
+
+    int[][] E = { { 2,  4, 2 }, {  2, 2, 2 } };
+    System.out.println(ArrayOps.isLocationMagic(E, 0, 1 //false
+    System.out.println(ArrayOps.isLocationMagic(E, 1, 1)); //true
   }
 }
